@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+}
+
+#prodotti {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.prodotto {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.prodotto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.prezzo {
+    font-weight: bold;
+    color: red;
+}
+
+.contatta {
+    display: block;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
